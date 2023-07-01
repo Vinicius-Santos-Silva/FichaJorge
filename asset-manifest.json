@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FichaJorge/static/css/main.19c4cd16.css",
+    "main.js": "/FichaJorge/static/js/main.87cbec1b.js",
+    "static/media/Fundo.jpg": "/FichaJorge/static/media/Fundo.63a753de762ec8ac807f.jpg",
+    "index.html": "/FichaJorge/index.html",
+    "main.19c4cd16.css.map": "/FichaJorge/static/css/main.19c4cd16.css.map",
+    "main.87cbec1b.js.map": "/FichaJorge/static/js/main.87cbec1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c4cd16.css",
+    "static/js/main.87cbec1b.js"
+  ]
+}
