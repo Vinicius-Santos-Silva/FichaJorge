@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FichaJorge/static/css/main.f9d69f2f.css",
-    "main.js": "/FichaJorge/static/js/main.13b7c65a.js",
+    "main.js": "/FichaJorge/static/js/main.f186fd06.js",
     "static/media/Fundo.jpg": "/FichaJorge/static/media/Fundo.63a753de762ec8ac807f.jpg",
     "static/media/Jorge.jpg": "/FichaJorge/static/media/Jorge.30f6ae1d4ece780f6b25.jpg",
     "index.html": "/FichaJorge/index.html",
     "main.f9d69f2f.css.map": "/FichaJorge/static/css/main.f9d69f2f.css.map",
-    "main.13b7c65a.js.map": "/FichaJorge/static/js/main.13b7c65a.js.map"
+    "main.f186fd06.js.map": "/FichaJorge/static/js/main.f186fd06.js.map"
   },
   "entrypoints": [
     "static/css/main.f9d69f2f.css",
-    "static/js/main.13b7c65a.js"
+    "static/js/main.f186fd06.js"
   ]
 }
