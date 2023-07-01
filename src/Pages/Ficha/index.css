@@ -16,9 +16,3 @@
     border-radius: 3px;
 }
 
-/*  Campo Personagem */
-#CampoPersonagem input{
-    outline: none;
-    width: auto;
-    text-align: center;
-}

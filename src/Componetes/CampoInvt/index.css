@@ -11,3 +11,28 @@
     position: relative;
     left:700px;
 }
+#mochila{
+    width:40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 2px;
+}
+#txtInvet{
+    top: -30px;
+    left: 53px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+}
+
+
+.TextosQueAparecem{
+    display: none;
+    position: relative;
+    color: rgba(255, 255, 255, 0.632);
+}
+#Inventario:hover #txtInvet{
+    display: block;
+}

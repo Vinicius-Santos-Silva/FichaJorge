@@ -11,3 +11,17 @@
     margin-left: 220px;
     cursor: pointer;
 }
+#anotacao img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+#anotacao:hover #txtAnotacao{
+    display: block;
+}
+#txtAnotacao{
+    font-size: 20px;
+    top: -29px;
+    left: 50px;
+}
