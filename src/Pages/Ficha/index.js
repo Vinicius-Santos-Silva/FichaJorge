@@ -44,7 +44,7 @@ function Ficha() {
           <div id="ficha">
             <div id="CampoPersonagem">
               <h1> 
-                <input type="text" value={nome} onChange={(e) => {setNome(e.target.value)}}/> 
+                <input type="text" value={nome} onChange={(e) => {setNome(e.target.value)}} placeholder="Digite o nome do Personagem"/> 
                 <button onClick={salvar}>Salvar</button>
               </h1>
               <img src={FtPersonagem} alt="Foto do Personagem"/>
