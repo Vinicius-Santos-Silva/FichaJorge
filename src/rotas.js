@@ -7,8 +7,8 @@ function Rotas(){
     return(
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={ <Ficha/> }/>        
-            <Route path="/Inventario" element={ <Inventario/> }/>        
+            <Route path="/FichaJorge" element={ <Ficha/> }/>        
+            <Route path="/FichaJorge/Inventario" element={ <Inventario/> }/>        
         </Routes>
     </BrowserRouter>
     );

@@ -9,3 +9,9 @@ body{
   font-family: sans-serif;
 }
 
+body{
+  background-image: url("../../Imagens/Fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
