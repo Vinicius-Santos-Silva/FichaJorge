@@ -25,9 +25,6 @@ e a segunda criar um campo nos dados pessoais de nome do personagem.
             <CampoAnotações />  
           <div id="ficha">  
             <Personagem/>
-
-
-
           </div>
         </div>
     );

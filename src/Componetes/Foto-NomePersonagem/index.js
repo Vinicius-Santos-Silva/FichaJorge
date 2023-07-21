@@ -2,7 +2,8 @@ import './index.css'
 
 import { useState, useEffect} from "react";   
 
-import FtUser from '../../Imagens/usuario.png'
+/* import FtUser from '../../Imagens/usuario.png' */
+import FtUser from '../../Imagens/Jorge.jpg'
 
 function Personagem(){
     
@@ -21,10 +22,9 @@ function Personagem(){
       localStorage.setItem('NomePersonagem', nome)
     
       alert('O nome digitado foi Salvo')
-  
-
-
     };
+
+/*    Sem conhecimento necessário para fazer essa função funcionar dd jeito que deveria 
 
     function trocarImg(){
       const imagemInput = document.getElementById('uploadImg');
@@ -42,7 +42,7 @@ function Personagem(){
   
         leitor.readAsDataURL(arquivo);
       });
-    }
+    } */
 
     
     return(
@@ -53,19 +53,12 @@ function Personagem(){
           value={nome} 
           onChange={(e) => {setNome(e.target.value)}} 
           placeholder="Digite o nome do Personagem"
+          id='input-nome'
           /> 
           <button onClick={salvar}>Salvar</button>
         </strong>
-
-        <div id='containerImg'>
+        <div>
           <img src={FtUser} alt='uploadFt' id='FtUsario'/>
-
-          <input 
-          type='file' 
-          id='uploadImg' 
-          accept='image*/' 
-          onClick={trocarImg}/>
-
         </div>
       </div>
     );

@@ -6,16 +6,34 @@
     left: 40px;
     top: 30px;
 }
-/* #CampoPersonagem img{
+#CampoPersonagem img{
     width: 300px;
     height: 290px;
-} */
+}
 
-#FtUsario{
+#input-nome{
+    outline: none;
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+/* -------------- Sem conhecimento necessário -----------------   */
+/* #FtUsario{
     margin-top: 6px;
     height: 270px;
-}
-#containerImg{
+} */
+
+
+/* #containerImg{
     width: 298px;
     height: 288px;
     background-color: rgba(0, 0, 0, 0.13);
@@ -29,10 +47,8 @@
    left: 50%;
    transform: translate(-50%, -50%);
 }
-
-
-
 #uploadImg{
     content: 'Coloque uma imagem';
     display: none;
 }
+ */
