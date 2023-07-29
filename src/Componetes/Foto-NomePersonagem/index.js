@@ -18,11 +18,11 @@ function Personagem(){
     }, []);
   
   
-   const salvar = () =>{
+   function salvar() {
       localStorage.setItem('NomePersonagem', nome)
     
-      alert('O nome digitado foi Salvo')
-    };
+/*       alert('O nome digitado foi Salvo') */
+    }; 
 
 /*    Sem conhecimento necessário para fazer essa função funcionar dd jeito que deveria 
 
@@ -47,16 +47,19 @@ function Personagem(){
     
     return(
         <div id="CampoPersonagem">
-        <strong> 
           <input 
           type="text" 
           value={nome} 
-          onChange={(e) => {setNome(e.target.value)}} 
           placeholder="Digite o nome do Personagem"
           id='input-nome'
+          onChange={(e) => {
+            setNome(e.target.value);
+           /* So precisa dar um espaço no final do nome para salvar ele todo */
+          }} 
+          onInput={salvar}
+          autoComplete='off'
           /> 
-          <button onClick={salvar}>Salvar</button>
-        </strong>
+      {/*     <button onClick={salvar}>Salvar</button> */}
         <div>
           <img src={FtUser} alt='uploadFt' id='FtUsario'/>
         </div>

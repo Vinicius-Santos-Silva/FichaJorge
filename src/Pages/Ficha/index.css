@@ -16,3 +16,10 @@
     border-radius: 3px;
 }
 
+input[type=number]::-webkit-inner-spin-button { 	 /* <-- Campos que fazem a remoção das setas de aumentar e diminuir */
+    -webkit-appearance: none;
+	}
+input[type=number] { 
+	-moz-appearance: textfield;
+	appearance: textfield;
+}

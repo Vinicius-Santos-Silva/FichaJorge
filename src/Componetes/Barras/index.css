@@ -1,0 +1,66 @@
+
+
+.barras{
+    width: 300px;
+    height: 20px;
+    border-radius: 0;
+    border: 1px solid black;    
+}
+
+.containerBarras{
+    position: relative;
+    width: 300px;
+    height: 20px;
+}
+.containerBarras div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.containerBarras strong{
+    font-size: 17px;
+}
+
+.Numeros{
+    max-width: 30px;
+    text-align: left;
+    font-size: 17px;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+.direita{
+    text-align: right;
+}
+
+
+#CaixaBarras{
+    position: relative;
+    top: 78px;
+    left: 40px;
+}
+#CaixaBarras progress{
+    display: block;
+}
+#CaixaBarras span{
+    font-size: 18px;
+}
+
+
+#vida::-webkit-progress-bar{
+    background-color: rgb(230, 59, 59);
+}#vida::-moz-progress-bar{ background-color: rgb(230, 59, 59) ;}
+
+#mana::-webkit-progress-bar{
+    background-color:rgb(59, 73, 230) ;
+}#mana::-moz-progress-bar{ background-color: rgb(59, 73, 230);}
+
+#esforco::-webkit-progress-bar{
+    background-color: yellow ;
+} #esforco::-moz-progress-bar{ background-color: yellow ;}
+
+#sanidade::-webkit-progress-bar{
+    background-color:#3DB697 ;
+}#sanidade::-moz-progress-bar{ background-color: #3DB697;}
+

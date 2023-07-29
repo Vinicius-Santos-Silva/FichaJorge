@@ -3,7 +3,8 @@ import "./index.css"
 /* Componentes */
 import CampoInv from "../../Componetes/CampoInvt";
 import CampoAnotações from "../../Componetes/CampoAnotações";
-import Personagem from '../../Componetes/Foto-NomePersonagem'
+import Personagem from '../../Componetes/Foto-NomePersonagem';
+import Barras from '../../Componetes/Barras'
 
 
 function Ficha() {
@@ -25,6 +26,8 @@ e a segunda criar um campo nos dados pessoais de nome do personagem.
             <CampoAnotações />  
           <div id="ficha">  
             <Personagem/>
+            <Barras className='teste'/>
+        
           </div>
         </div>
     );
